@@ -38,7 +38,7 @@ public class Problem01 {
                 sb2.append(patt.substring(indexToBeRemoved + 1, patt.length()));
                 patt = sb2.toString();
 
-                //exit if pattern or text is 0
+                //exit if pattern or text is empty
                 if (patt.length() < 1 || text.length() < 1) {
                     System.out.println("No shake.");
                     break;
